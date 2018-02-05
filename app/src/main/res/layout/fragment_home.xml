@@ -1,0 +1,184 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cm.algroithms.Home"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_marginTop="5dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:background="@color/colorPrimary">
+
+       <ImageView
+           android:layout_width="80dp"
+           android:layout_height="80dp"
+           android:layout_marginLeft="40dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginBottom="10dp"
+           android:background="@drawable/algo"
+           android:layout_marginRight="20dp"/>
+       
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+           
+           <TextView
+               android:layout_width="150dp"
+               android:layout_height="wrap_content"
+               android:textColor="#fff"
+               android:textSize="25dp"
+               android:layout_marginTop="20dp"
+
+               android:textStyle="italic"
+               android:text="Algorithms"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColor="#fff"
+               android:textSize="18dp"
+               android:layout_marginTop="0dp"
+               android:layout_marginLeft="30dp"
+               android:textStyle="italic"
+               android:text="programming  thinking"
+               />
+       </LinearLayout>
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/math"
+            android:layout_marginRight="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+
+                android:textStyle="italic"
+                android:text="Algorithms"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="30dp"
+                android:textStyle="italic"
+                android:text="mathmatical  thinking"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/time"
+            android:layout_marginRight="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+
+                android:textStyle="italic"
+                android:text="Algorithms"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="30dp"
+                android:textStyle="italic"
+                android:text="Less Time"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/ram"
+            android:layout_marginRight="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+
+                android:textStyle="italic"
+                android:text="Algorithms"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="30dp"
+                android:textStyle="italic"
+                android:text="less space"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
